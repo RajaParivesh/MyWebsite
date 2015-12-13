@@ -6,11 +6,26 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <style type="text/css">
+
+  h1{
+      font-width: 700;
+      font-size: 5em;
+    }
+
+body{
+  font-family: lato;
+}
+  
+
 .jumbotron{
   color: #2e3e50;
   }
-.navbar{
-  background-color: #2e3e50;
+
+.form{
+  border: 2px solid pink;
+  padding: 35px;
+  width: 50%;
+  background:#6FD5F7;
 }
 </style>
 
@@ -18,8 +33,9 @@
 <body>
 
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+
+<nav class="navbar navbar-default">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,10 +50,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li ><a href="index.html">Home</a></li>
+        <li ><a href="services.html">Services</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
         
       </ul>
       
@@ -49,31 +65,69 @@
         
       </ul>
     </div><!-- /.navbar-collapse -->
- 
   </div><!-- /.container-fluid -->
 </nav>
-
 
 
 <div class="container">
   <div class="jumbotron">
     <h1><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Contact </h1>
- <p>The is simply a Contact. <i class="fa fa-smile-o"></i>  </p> 
+ <p>The is simply a Contact.  </p> 
  </div>
 
 
-
-
+<br>
+<div>
   <ul>
-    <li>Raja Parivesh</li>
-    <li>+91-8092690844</li>
-    <li>rajaparivesh@gmail.com</li>
+    <li>  Raja Parivesh</li>
+    <li><i class="fa fa-mobile"></i> +91-8092690844</li>
+    <li><i class="fa fa-envelope-o"></i> rajaparivesh@gmail.com</li>
   </ul>
+</div>
+<br>
+
+
+<h2>Mail me, if there is any query</h2><br>
+<div class="form">
+<form class="form-inline">
+  <div class="form-group has-success has-feedback">
+    <input type="text" name="Name" class="s13_required s13nameField" placeholder="Name" id="i0qofe6dnameField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage.1.$i0qofe6d.0.0">
+  </div>
+
+</form>
+<br>
+<form class="form-inline">
+  <div class="form-group has-success has-feedback">
+    <input type="text" name="Email" class="s13_required s13emailField" placeholder="Email" id="i0qofe6demailField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage.1.$i0qofe6d.0.1">
+  </div>
+</form>
+<br>
+<form class="form-inline">
+  <div class="form-group has-succ ess has-feedback">
+    <textarea name="Message"  placeholder="Message" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage.1.$i0qofe6d.0.5"></textarea>
+  </div>
+</form>
+<br>
+<form class="form-inline">
+  <div class="form-group has-success has-feedback">
+    <button id="i0qofe6dsubmit" class="s13submit" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage.1.$i0qofe6d.0.6">Send</button>
+  </div>
+</form>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>  &copy; 2015 <a href="index.html">WebsiteDeveloper.com, Nawada</a><br>
+          Designed and Developed by <a href="http://www.jaychakra.co.cc">Raja Parivesh</a>
+</footer>
 
 
 
 
- 
+
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
